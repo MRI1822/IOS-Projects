@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ED71B1C1766FBF800081D89 /* bg1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71B191766FBF800081D89 /* bg1@2x.jpg */; };
+		6ED71B1D1766FBF800081D89 /* bg2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71B1A1766FBF800081D89 /* bg2@2x.jpg */; };
+		6ED71B1E1766FBF800081D89 /* bg3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71B1B1766FBF800081D89 /* bg3@2x.jpg */; };
+		6ED71B201767003700081D89 /* bg4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71B1F1767003700081D89 /* bg4@2x.jpg */; };
+		6ED71B221767050A00081D89 /* bg5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71B211767050A00081D89 /* bg5@2x.jpg */; };
+		6ED720DD17670E0C00081D89 /* OALAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7209D17670E0B00081D89 /* OALAction.m */; };
+		6ED720DE17670E0C00081D89 /* OALActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7209F17670E0B00081D89 /* OALActionManager.m */; };
+		6ED720DF17670E0C00081D89 /* OALAudioActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720A117670E0B00081D89 /* OALAudioActions.m */; };
+		6ED720E017670E0C00081D89 /* OALUtilityActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720A317670E0B00081D89 /* OALUtilityActions.m */; };
+		6ED720E117670E0C00081D89 /* OALAudioTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720A617670E0B00081D89 /* OALAudioTrack.m */; };
+		6ED720E217670E0C00081D89 /* OALAudioTrackNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720A817670E0B00081D89 /* OALAudioTrackNotifications.m */; };
+		6ED720E317670E0C00081D89 /* OALAudioTracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720AA17670E0B00081D89 /* OALAudioTracks.m */; };
+		6ED720E417670E0C00081D89 /* OALSimpleAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720AC17670E0B00081D89 /* OALSimpleAudio.m */; };
+		6ED720E517670E0C00081D89 /* ALBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720B217670E0B00081D89 /* ALBuffer.m */; };
+		6ED720E617670E0C00081D89 /* ALCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720B417670E0B00081D89 /* ALCaptureDevice.m */; };
+		6ED720E717670E0C00081D89 /* ALChannelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720B617670E0B00081D89 /* ALChannelSource.m */; };
+		6ED720E817670E0C00081D89 /* ALContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720B817670E0B00081D89 /* ALContext.m */; };
+		6ED720E917670E0C00081D89 /* ALDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720BA17670E0B00081D89 /* ALDevice.m */; };
+		6ED720EA17670E0C00081D89 /* ALListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720BC17670E0B00081D89 /* ALListener.m */; };
+		6ED720EB17670E0C00081D89 /* ALSoundSourcePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720BF17670E0B00081D89 /* ALSoundSourcePool.m */; };
+		6ED720EC17670E0C00081D89 /* ALSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720C117670E0B00081D89 /* ALSource.m */; };
+		6ED720ED17670E0C00081D89 /* ALWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720C417670E0B00081D89 /* ALWrapper.m */; };
+		6ED720EE17670E0C00081D89 /* OpenALManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720C617670E0B00081D89 /* OpenALManager.m */; };
+		6ED720EF17670E0C00081D89 /* OALAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720C917670E0B00081D89 /* OALAudioSession.m */; };
+		6ED720F017670E0C00081D89 /* OALSuspendHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720CB17670E0B00081D89 /* OALSuspendHandler.m */; };
+		6ED720F117670E0C00081D89 /* IOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720CF17670E0C00081D89 /* IOSVersion.m */; };
+		6ED720F217670E0C00081D89 /* mach_timing.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720D017670E0C00081D89 /* mach_timing.c */; };
+		6ED720F317670E0C00081D89 /* NSMutableArray+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720D317670E0C00081D89 /* NSMutableArray+WeakReferences.m */; };
+		6ED720F417670E0C00081D89 /* NSMutableDictionary+WeakReferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720D517670E0C00081D89 /* NSMutableDictionary+WeakReferences.m */; };
+		6ED720F517670E0C00081D89 /* OALAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720D717670E0C00081D89 /* OALAudioFile.m */; };
+		6ED720F617670E0C00081D89 /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED720DA17670E0C00081D89 /* OALTools.m */; };
+		6ED720F817670E1600081D89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED720F717670E1600081D89 /* AVFoundation.framework */; };
+		6ED720FA17670E1F00081D89 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED720F917670E1F00081D89 /* OpenAL.framework */; };
+		6ED720FC17670E2800081D89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED720FB17670E2800081D89 /* AudioToolbox.framework */; };
+		6ED720FF17670E6000081D89 /* bgmusic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6ED720FE17670E6000081D89 /* bgmusic1.mp3 */; };
+		6ED72101176721E700081D89 /* DK Mama Bear.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6ED72100176721E700081D89 /* DK Mama Bear.otf */; };
+		6ED721031767320700081D89 /* FlashCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED721021767320700081D89 /* FlashCardCell.xib */; };
+		6EE46F951767498C00F41A3F /* hanko.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F941767498C00F41A3F /* hanko.ttf */; };
+		6EE46F9717674AA800F41A3F /* bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9617674AA800F41A3F /* bear.mp3 */; };
+		6EE46FA917674D2A00F41A3F /* bear_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9817674D2A00F41A3F /* bear_sound.mp3 */; };
+		6EE46FAA17674D2A00F41A3F /* dolphin_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9917674D2A00F41A3F /* dolphin_sound.mp3 */; };
+		6EE46FAB17674D2A00F41A3F /* dolphin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9A17674D2A00F41A3F /* dolphin.mp3 */; };
+		6EE46FAC17674D2A00F41A3F /* duck_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9B17674D2A00F41A3F /* duck_sound.mp3 */; };
+		6EE46FAD17674D2A00F41A3F /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9C17674D2A00F41A3F /* duck.mp3 */; };
+		6EE46FAE17674D2A00F41A3F /* giraffe_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9D17674D2A00F41A3F /* giraffe_sound.mp3 */; };
+		6EE46FAF17674D2A00F41A3F /* giraffe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9E17674D2A00F41A3F /* giraffe.mp3 */; };
+		6EE46FB017674D2A00F41A3F /* goose_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46F9F17674D2A00F41A3F /* goose_sound.mp3 */; };
+		6EE46FB117674D2A00F41A3F /* goose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA017674D2A00F41A3F /* goose.mp3 */; };
+		6EE46FB217674D2A00F41A3F /* gorilla_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA117674D2A00F41A3F /* gorilla_sound.mp3 */; };
+		6EE46FB317674D2A00F41A3F /* gorilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA217674D2A00F41A3F /* gorilla.mp3 */; };
+		6EE46FB417674D2A00F41A3F /* hippo_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA317674D2A00F41A3F /* hippo_sound.mp3 */; };
+		6EE46FB517674D2A00F41A3F /* hippo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA417674D2A00F41A3F /* hippo.mp3 */; };
+		6EE46FB617674D2A00F41A3F /* horse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA517674D2A00F41A3F /* horse_sound.mp3 */; };
+		6EE46FB717674D2A00F41A3F /* horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA617674D2A00F41A3F /* horse.mp3 */; };
+		6EE46FB817674D2A00F41A3F /* koala_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA717674D2A00F41A3F /* koala_sound.mp3 */; };
+		6EE46FB917674D2A00F41A3F /* koala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EE46FA817674D2A00F41A3F /* koala.mp3 */; };
+		99621311176608F500F713F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99621310176608F500F713F8 /* UIKit.framework */; };
+		99621313176608F500F713F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99621312176608F500F713F8 /* Foundation.framework */; };
+		99621315176608F500F713F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99621314176608F500F713F8 /* CoreGraphics.framework */; };
+		9962131B176608F500F713F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99621319176608F500F713F8 /* InfoPlist.strings */; };
+		9962131D176608F500F713F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9962131C176608F500F713F8 /* main.m */; };
+		99621321176608F500F713F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99621320176608F500F713F8 /* AppDelegate.m */; };
+		99621323176608F500F713F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99621322176608F500F713F8 /* Default.png */; };
+		99621325176608F500F713F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99621324176608F500F713F8 /* Default@2x.png */; };
+		99621327176608F500F713F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99621326176608F500F713F8 /* Default-568h@2x.png */; };
+		996213301766097700F713F8 /* FlashCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9962132E1766097700F713F8 /* FlashCardsViewController.m */; };
+		9962133E17660CE300F713F8 /* bear@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133317660CE300F713F8 /* bear@2x.jpg */; };
+		9962134017660CE300F713F8 /* dolphin@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133517660CE300F713F8 /* dolphin@2x.jpg */; };
+		9962134117660CE300F713F8 /* duck@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133617660CE300F713F8 /* duck@2x.jpg */; };
+		9962134217660CE300F713F8 /* giraffe@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133717660CE300F713F8 /* giraffe@2x.jpg */; };
+		9962134317660CE300F713F8 /* goose@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133817660CE300F713F8 /* goose@2x.jpg */; };
+		9962134417660CE300F713F8 /* gorilla@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133917660CE300F713F8 /* gorilla@2x.jpg */; };
+		9962134517660CE300F713F8 /* hippo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133A17660CE300F713F8 /* hippo@2x.jpg */; };
+		9962134617660CE300F713F8 /* horse@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133B17660CE300F713F8 /* horse@2x.jpg */; };
+		9962134717660CE300F713F8 /* koala@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133C17660CE300F713F8 /* koala@2x.jpg */; };
+		9962134817660CE300F713F8 /* mask@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9962133D17660CE300F713F8 /* mask@2x.jpg */; };
+		9962134B17660D3200F713F8 /* FlashCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9962134A17660D3200F713F8 /* FlashCardCell.m */; };
+		9962134D176615DE00F713F8 /* FlashCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9962134C176615DE00F713F8 /* FlashCardsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ED71B191766FBF800081D89 /* bg1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg1@2x.jpg"; sourceTree = "<group>"; };
+		6ED71B1A1766FBF800081D89 /* bg2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg2@2x.jpg"; sourceTree = "<group>"; };
+		6ED71B1B1766FBF800081D89 /* bg3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg3@2x.jpg"; sourceTree = "<group>"; };
+		6ED71B1F1767003700081D89 /* bg4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg4@2x.jpg"; sourceTree = "<group>"; };
+		6ED71B211767050A00081D89 /* bg5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg5@2x.jpg"; sourceTree = "<group>"; };
+		6ED7209B17670E0B00081D89 /* OALAction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OALAction+Private.h"; sourceTree = "<group>"; };
+		6ED7209C17670E0B00081D89 /* OALAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAction.h; sourceTree = "<group>"; };
+		6ED7209D17670E0B00081D89 /* OALAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAction.m; sourceTree = "<group>"; };
+		6ED7209E17670E0B00081D89 /* OALActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALActionManager.h; sourceTree = "<group>"; };
+		6ED7209F17670E0B00081D89 /* OALActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALActionManager.m; sourceTree = "<group>"; };
+		6ED720A017670E0B00081D89 /* OALAudioActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioActions.h; sourceTree = "<group>"; };
+		6ED720A117670E0B00081D89 /* OALAudioActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioActions.m; sourceTree = "<group>"; };
+		6ED720A217670E0B00081D89 /* OALUtilityActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALUtilityActions.h; sourceTree = "<group>"; };
+		6ED720A317670E0B00081D89 /* OALUtilityActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALUtilityActions.m; sourceTree = "<group>"; };
+		6ED720A517670E0B00081D89 /* OALAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioTrack.h; sourceTree = "<group>"; };
+		6ED720A617670E0B00081D89 /* OALAudioTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioTrack.m; sourceTree = "<group>"; };
+		6ED720A717670E0B00081D89 /* OALAudioTrackNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioTrackNotifications.h; sourceTree = "<group>"; };
+		6ED720A817670E0B00081D89 /* OALAudioTrackNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioTrackNotifications.m; sourceTree = "<group>"; };
+		6ED720A917670E0B00081D89 /* OALAudioTracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioTracks.h; sourceTree = "<group>"; };
+		6ED720AA17670E0B00081D89 /* OALAudioTracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioTracks.m; sourceTree = "<group>"; };
+		6ED720AB17670E0B00081D89 /* OALSimpleAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALSimpleAudio.h; sourceTree = "<group>"; };
+		6ED720AC17670E0B00081D89 /* OALSimpleAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALSimpleAudio.m; sourceTree = "<group>"; };
+		6ED720AD17670E0B00081D89 /* ObjectAL (iOS)-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectAL (iOS)-Prefix.pch"; sourceTree = "<group>"; };
+		6ED720AE17670E0B00081D89 /* ObjectAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectAL.h; sourceTree = "<group>"; };
+		6ED720AF17670E0B00081D89 /* ObjectALConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectALConfig.h; sourceTree = "<group>"; };
+		6ED720B117670E0B00081D89 /* ALBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBuffer.h; sourceTree = "<group>"; };
+		6ED720B217670E0B00081D89 /* ALBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBuffer.m; sourceTree = "<group>"; };
+		6ED720B317670E0B00081D89 /* ALCaptureDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCaptureDevice.h; sourceTree = "<group>"; };
+		6ED720B417670E0B00081D89 /* ALCaptureDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCaptureDevice.m; sourceTree = "<group>"; };
+		6ED720B517670E0B00081D89 /* ALChannelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALChannelSource.h; sourceTree = "<group>"; };
+		6ED720B617670E0B00081D89 /* ALChannelSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALChannelSource.m; sourceTree = "<group>"; };
+		6ED720B717670E0B00081D89 /* ALContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALContext.h; sourceTree = "<group>"; };
+		6ED720B817670E0B00081D89 /* ALContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALContext.m; sourceTree = "<group>"; };
+		6ED720B917670E0B00081D89 /* ALDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDevice.h; sourceTree = "<group>"; };
+		6ED720BA17670E0B00081D89 /* ALDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDevice.m; sourceTree = "<group>"; };
+		6ED720BB17670E0B00081D89 /* ALListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALListener.h; sourceTree = "<group>"; };
+		6ED720BC17670E0B00081D89 /* ALListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALListener.m; sourceTree = "<group>"; };
+		6ED720BD17670E0B00081D89 /* ALSoundSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSoundSource.h; sourceTree = "<group>"; };
+		6ED720BE17670E0B00081D89 /* ALSoundSourcePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSoundSourcePool.h; sourceTree = "<group>"; };
+		6ED720BF17670E0B00081D89 /* ALSoundSourcePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSoundSourcePool.m; sourceTree = "<group>"; };
+		6ED720C017670E0B00081D89 /* ALSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSource.h; sourceTree = "<group>"; };
+		6ED720C117670E0B00081D89 /* ALSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSource.m; sourceTree = "<group>"; };
+		6ED720C217670E0B00081D89 /* ALTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTypes.h; sourceTree = "<group>"; };
+		6ED720C317670E0B00081D89 /* ALWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWrapper.h; sourceTree = "<group>"; };
+		6ED720C417670E0B00081D89 /* ALWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWrapper.m; sourceTree = "<group>"; };
+		6ED720C517670E0B00081D89 /* OpenALManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALManager.h; sourceTree = "<group>"; };
+		6ED720C617670E0B00081D89 /* OpenALManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenALManager.m; sourceTree = "<group>"; };
+		6ED720C817670E0B00081D89 /* OALAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioSession.h; sourceTree = "<group>"; };
+		6ED720C917670E0B00081D89 /* OALAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioSession.m; sourceTree = "<group>"; };
+		6ED720CA17670E0B00081D89 /* OALSuspendHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALSuspendHandler.h; sourceTree = "<group>"; };
+		6ED720CB17670E0B00081D89 /* OALSuspendHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALSuspendHandler.m; sourceTree = "<group>"; };
+		6ED720CD17670E0C00081D89 /* ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCSafe_MemMgmt.h; sourceTree = "<group>"; };
+		6ED720CE17670E0C00081D89 /* IOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSVersion.h; sourceTree = "<group>"; };
+		6ED720CF17670E0C00081D89 /* IOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSVersion.m; sourceTree = "<group>"; };
+		6ED720D017670E0C00081D89 /* mach_timing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_timing.c; sourceTree = "<group>"; };
+		6ED720D117670E0C00081D89 /* mach_timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_timing.h; sourceTree = "<group>"; };
+		6ED720D217670E0C00081D89 /* NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WeakReferences.h"; sourceTree = "<group>"; };
+		6ED720D317670E0C00081D89 /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
+		6ED720D417670E0C00081D89 /* NSMutableDictionary+WeakReferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+WeakReferences.h"; sourceTree = "<group>"; };
+		6ED720D517670E0C00081D89 /* NSMutableDictionary+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+WeakReferences.m"; sourceTree = "<group>"; };
+		6ED720D617670E0C00081D89 /* OALAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAudioFile.h; sourceTree = "<group>"; };
+		6ED720D717670E0C00081D89 /* OALAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioFile.m; sourceTree = "<group>"; };
+		6ED720D817670E0C00081D89 /* OALNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALNotifications.h; sourceTree = "<group>"; };
+		6ED720D917670E0C00081D89 /* OALTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALTools.h; sourceTree = "<group>"; };
+		6ED720DA17670E0C00081D89 /* OALTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALTools.m; sourceTree = "<group>"; };
+		6ED720DB17670E0C00081D89 /* ObjectALMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectALMacros.h; sourceTree = "<group>"; };
+		6ED720DC17670E0C00081D89 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		6ED720F717670E1600081D89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6ED720F917670E1F00081D89 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6ED720FB17670E2800081D89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6ED720FE17670E6000081D89 /* bgmusic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic1.mp3; sourceTree = "<group>"; };
+		6ED72100176721E700081D89 /* DK Mama Bear.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DK Mama Bear.otf"; sourceTree = "<group>"; };
+		6ED721021767320700081D89 /* FlashCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlashCardCell.xib; sourceTree = "<group>"; };
+		6EE46F941767498C00F41A3F /* hanko.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hanko.ttf; sourceTree = "<group>"; };
+		6EE46F9617674AA800F41A3F /* bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear.mp3; sourceTree = "<group>"; };
+		6EE46F9817674D2A00F41A3F /* bear_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear_sound.mp3; sourceTree = "<group>"; };
+		6EE46F9917674D2A00F41A3F /* dolphin_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolphin_sound.mp3; sourceTree = "<group>"; };
+		6EE46F9A17674D2A00F41A3F /* dolphin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolphin.mp3; sourceTree = "<group>"; };
+		6EE46F9B17674D2A00F41A3F /* duck_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck_sound.mp3; sourceTree = "<group>"; };
+		6EE46F9C17674D2A00F41A3F /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
+		6EE46F9D17674D2A00F41A3F /* giraffe_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giraffe_sound.mp3; sourceTree = "<group>"; };
+		6EE46F9E17674D2A00F41A3F /* giraffe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giraffe.mp3; sourceTree = "<group>"; };
+		6EE46F9F17674D2A00F41A3F /* goose_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goose_sound.mp3; sourceTree = "<group>"; };
+		6EE46FA017674D2A00F41A3F /* goose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goose.mp3; sourceTree = "<group>"; };
+		6EE46FA117674D2A00F41A3F /* gorilla_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gorilla_sound.mp3; sourceTree = "<group>"; };
+		6EE46FA217674D2A00F41A3F /* gorilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gorilla.mp3; sourceTree = "<group>"; };
+		6EE46FA317674D2A00F41A3F /* hippo_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hippo_sound.mp3; sourceTree = "<group>"; };
+		6EE46FA417674D2A00F41A3F /* hippo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hippo.mp3; sourceTree = "<group>"; };
+		6EE46FA517674D2A00F41A3F /* horse_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse_sound.mp3; sourceTree = "<group>"; };
+		6EE46FA617674D2A00F41A3F /* horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse.mp3; sourceTree = "<group>"; };
+		6EE46FA717674D2A00F41A3F /* koala_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = koala_sound.mp3; sourceTree = "<group>"; };
+		6EE46FA817674D2A00F41A3F /* koala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = koala.mp3; sourceTree = "<group>"; };
+		9962130D176608F500F713F8 /* BabyFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99621310176608F500F713F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99621312176608F500F713F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99621314176608F500F713F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99621318176608F500F713F8 /* BabyFlashCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabyFlashCards-Info.plist"; sourceTree = "<group>"; };
+		9962131A176608F500F713F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9962131C176608F500F713F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9962131E176608F500F713F8 /* BabyFlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BabyFlashCards-Prefix.pch"; sourceTree = "<group>"; };
+		9962131F176608F500F713F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99621320176608F500F713F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99621322176608F500F713F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99621324176608F500F713F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99621326176608F500F713F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9962132D1766097700F713F8 /* FlashCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardsViewController.h; sourceTree = "<group>"; };
+		9962132E1766097700F713F8 /* FlashCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardsViewController.m; sourceTree = "<group>"; };
+		9962133317660CE300F713F8 /* bear@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bear@2x.jpg"; sourceTree = "<group>"; };
+		9962133517660CE300F713F8 /* dolphin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dolphin@2x.jpg"; sourceTree = "<group>"; };
+		9962133617660CE300F713F8 /* duck@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duck@2x.jpg"; sourceTree = "<group>"; };
+		9962133717660CE300F713F8 /* giraffe@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giraffe@2x.jpg"; sourceTree = "<group>"; };
+		9962133817660CE300F713F8 /* goose@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goose@2x.jpg"; sourceTree = "<group>"; };
+		9962133917660CE300F713F8 /* gorilla@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gorilla@2x.jpg"; sourceTree = "<group>"; };
+		9962133A17660CE300F713F8 /* hippo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hippo@2x.jpg"; sourceTree = "<group>"; };
+		9962133B17660CE300F713F8 /* horse@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "horse@2x.jpg"; sourceTree = "<group>"; };
+		9962133C17660CE300F713F8 /* koala@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "koala@2x.jpg"; sourceTree = "<group>"; };
+		9962133D17660CE300F713F8 /* mask@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mask@2x.jpg"; sourceTree = "<group>"; };
+		9962134917660D3200F713F8 /* FlashCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardCell.h; sourceTree = "<group>"; };
+		9962134A17660D3200F713F8 /* FlashCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardCell.m; sourceTree = "<group>"; };
+		9962134C176615DE00F713F8 /* FlashCardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlashCardsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9962130A176608F500F713F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED720FC17670E2800081D89 /* AudioToolbox.framework in Frameworks */,
+				6ED720FA17670E1F00081D89 /* OpenAL.framework in Frameworks */,
+				6ED720F817670E1600081D89 /* AVFoundation.framework in Frameworks */,
+				99621311176608F500F713F8 /* UIKit.framework in Frameworks */,
+				99621313176608F500F713F8 /* Foundation.framework in Frameworks */,
+				99621315176608F500F713F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED7209917670E0B00081D89 /* ObjectAL (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				6ED7209A17670E0B00081D89 /* Actions */,
+				6ED720A417670E0B00081D89 /* AudioTrack */,
+				6ED720AB17670E0B00081D89 /* OALSimpleAudio.h */,
+				6ED720AC17670E0B00081D89 /* OALSimpleAudio.m */,
+				6ED720AD17670E0B00081D89 /* ObjectAL (iOS)-Prefix.pch */,
+				6ED720AE17670E0B00081D89 /* ObjectAL.h */,
+				6ED720AF17670E0B00081D89 /* ObjectALConfig.h */,
+				6ED720B017670E0B00081D89 /* OpenAL */,
+				6ED720C717670E0B00081D89 /* Session */,
+				6ED720CC17670E0C00081D89 /* Support */,
+			);
+			name = "ObjectAL (iOS)";
+			path = "ObjectAL-for-iPhone/ObjectAL/ObjectAL (iOS)";
+			sourceTree = "<group>";
+		};
+		6ED7209A17670E0B00081D89 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6ED7209B17670E0B00081D89 /* OALAction+Private.h */,
+				6ED7209C17670E0B00081D89 /* OALAction.h */,
+				6ED7209D17670E0B00081D89 /* OALAction.m */,
+				6ED7209E17670E0B00081D89 /* OALActionManager.h */,
+				6ED7209F17670E0B00081D89 /* OALActionManager.m */,
+				6ED720A017670E0B00081D89 /* OALAudioActions.h */,
+				6ED720A117670E0B00081D89 /* OALAudioActions.m */,
+				6ED720A217670E0B00081D89 /* OALUtilityActions.h */,
+				6ED720A317670E0B00081D89 /* OALUtilityActions.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6ED720A417670E0B00081D89 /* AudioTrack */ = {
+			isa = PBXGroup;
+			children = (
+				6ED720A517670E0B00081D89 /* OALAudioTrack.h */,
+				6ED720A617670E0B00081D89 /* OALAudioTrack.m */,
+				6ED720A717670E0B00081D89 /* OALAudioTrackNotifications.h */,
+				6ED720A817670E0B00081D89 /* OALAudioTrackNotifications.m */,
+				6ED720A917670E0B00081D89 /* OALAudioTracks.h */,
+				6ED720AA17670E0B00081D89 /* OALAudioTracks.m */,
+			);
+			path = AudioTrack;
+			sourceTree = "<group>";
+		};
+		6ED720B017670E0B00081D89 /* OpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				6ED720B117670E0B00081D89 /* ALBuffer.h */,
+				6ED720B217670E0B00081D89 /* ALBuffer.m */,
+				6ED720B317670E0B00081D89 /* ALCaptureDevice.h */,
+				6ED720B417670E0B00081D89 /* ALCaptureDevice.m */,
+				6ED720B517670E0B00081D89 /* ALChannelSource.h */,
+				6ED720B617670E0B00081D89 /* ALChannelSource.m */,
+				6ED720B717670E0B00081D89 /* ALContext.h */,
+				6ED720B817670E0B00081D89 /* ALContext.m */,
+				6ED720B917670E0B00081D89 /* ALDevice.h */,
+				6ED720BA17670E0B00081D89 /* ALDevice.m */,
+				6ED720BB17670E0B00081D89 /* ALListener.h */,
+				6ED720BC17670E0B00081D89 /* ALListener.m */,
+				6ED720BD17670E0B00081D89 /* ALSoundSource.h */,
+				6ED720BE17670E0B00081D89 /* ALSoundSourcePool.h */,
+				6ED720BF17670E0B00081D89 /* ALSoundSourcePool.m */,
+				6ED720C017670E0B00081D89 /* ALSource.h */,
+				6ED720C117670E0B00081D89 /* ALSource.m */,
+				6ED720C217670E0B00081D89 /* ALTypes.h */,
+				6ED720C317670E0B00081D89 /* ALWrapper.h */,
+				6ED720C417670E0B00081D89 /* ALWrapper.m */,
+				6ED720C517670E0B00081D89 /* OpenALManager.h */,
+				6ED720C617670E0B00081D89 /* OpenALManager.m */,
+			);
+			path = OpenAL;
+			sourceTree = "<group>";
+		};
+		6ED720C717670E0B00081D89 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				6ED720C817670E0B00081D89 /* OALAudioSession.h */,
+				6ED720C917670E0B00081D89 /* OALAudioSession.m */,
+				6ED720CA17670E0B00081D89 /* OALSuspendHandler.h */,
+				6ED720CB17670E0B00081D89 /* OALSuspendHandler.m */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		6ED720CC17670E0C00081D89 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6ED720CD17670E0C00081D89 /* ARCSafe_MemMgmt.h */,
+				6ED720CE17670E0C00081D89 /* IOSVersion.h */,
+				6ED720CF17670E0C00081D89 /* IOSVersion.m */,
+				6ED720D017670E0C00081D89 /* mach_timing.c */,
+				6ED720D117670E0C00081D89 /* mach_timing.h */,
+				6ED720D217670E0C00081D89 /* NSMutableArray+WeakReferences.h */,
+				6ED720D317670E0C00081D89 /* NSMutableArray+WeakReferences.m */,
+				6ED720D417670E0C00081D89 /* NSMutableDictionary+WeakReferences.h */,
+				6ED720D517670E0C00081D89 /* NSMutableDictionary+WeakReferences.m */,
+				6ED720D617670E0C00081D89 /* OALAudioFile.h */,
+				6ED720D717670E0C00081D89 /* OALAudioFile.m */,
+				6ED720D817670E0C00081D89 /* OALNotifications.h */,
+				6ED720D917670E0C00081D89 /* OALTools.h */,
+				6ED720DA17670E0C00081D89 /* OALTools.m */,
+				6ED720DB17670E0C00081D89 /* ObjectALMacros.h */,
+				6ED720DC17670E0C00081D89 /* SynthesizeSingleton.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6ED720FD17670E6000081D89 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				6EE46F9817674D2A00F41A3F /* bear_sound.mp3 */,
+				6EE46F9917674D2A00F41A3F /* dolphin_sound.mp3 */,
+				6EE46F9A17674D2A00F41A3F /* dolphin.mp3 */,
+				6EE46F9B17674D2A00F41A3F /* duck_sound.mp3 */,
+				6EE46F9C17674D2A00F41A3F /* duck.mp3 */,
+				6EE46F9D17674D2A00F41A3F /* giraffe_sound.mp3 */,
+				6EE46F9E17674D2A00F41A3F /* giraffe.mp3 */,
+				6EE46F9F17674D2A00F41A3F /* goose_sound.mp3 */,
+				6EE46FA017674D2A00F41A3F /* goose.mp3 */,
+				6EE46FA117674D2A00F41A3F /* gorilla_sound.mp3 */,
+				6EE46FA217674D2A00F41A3F /* gorilla.mp3 */,
+				6EE46FA317674D2A00F41A3F /* hippo_sound.mp3 */,
+				6EE46FA417674D2A00F41A3F /* hippo.mp3 */,
+				6EE46FA517674D2A00F41A3F /* horse_sound.mp3 */,
+				6EE46FA617674D2A00F41A3F /* horse.mp3 */,
+				6EE46FA717674D2A00F41A3F /* koala_sound.mp3 */,
+				6EE46FA817674D2A00F41A3F /* koala.mp3 */,
+				6EE46F9617674AA800F41A3F /* bear.mp3 */,
+				6ED720FE17670E6000081D89 /* bgmusic1.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		99621304176608F500F713F8 = {
+			isa = PBXGroup;
+			children = (
+				6ED7209917670E0B00081D89 /* ObjectAL (iOS) */,
+				99621316176608F500F713F8 /* BabyFlashCards */,
+				9962130F176608F500F713F8 /* Frameworks */,
+				9962130E176608F500F713F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9962130E176608F500F713F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9962130D176608F500F713F8 /* BabyFlashCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9962130F176608F500F713F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED720FB17670E2800081D89 /* AudioToolbox.framework */,
+				6ED720F917670E1F00081D89 /* OpenAL.framework */,
+				6ED720F717670E1600081D89 /* AVFoundation.framework */,
+				99621310176608F500F713F8 /* UIKit.framework */,
+				99621312176608F500F713F8 /* Foundation.framework */,
+				99621314176608F500F713F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99621316176608F500F713F8 /* BabyFlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				6EE46F941767498C00F41A3F /* hanko.ttf */,
+				6ED72100176721E700081D89 /* DK Mama Bear.otf */,
+				6ED720FD17670E6000081D89 /* audio */,
+				9962133217660CE300F713F8 /* images */,
+				9962131F176608F500F713F8 /* AppDelegate.h */,
+				99621320176608F500F713F8 /* AppDelegate.m */,
+				99621317176608F500F713F8 /* Supporting Files */,
+				9962132D1766097700F713F8 /* FlashCardsViewController.h */,
+				9962132E1766097700F713F8 /* FlashCardsViewController.m */,
+				9962134C176615DE00F713F8 /* FlashCardsViewController.xib */,
+				9962134917660D3200F713F8 /* FlashCardCell.h */,
+				9962134A17660D3200F713F8 /* FlashCardCell.m */,
+				6ED721021767320700081D89 /* FlashCardCell.xib */,
+			);
+			path = BabyFlashCards;
+			sourceTree = "<group>";
+		};
+		99621317176608F500F713F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99621318176608F500F713F8 /* BabyFlashCards-Info.plist */,
+				99621319176608F500F713F8 /* InfoPlist.strings */,
+				9962131C176608F500F713F8 /* main.m */,
+				9962131E176608F500F713F8 /* BabyFlashCards-Prefix.pch */,
+				99621322176608F500F713F8 /* Default.png */,
+				99621324176608F500F713F8 /* Default@2x.png */,
+				99621326176608F500F713F8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9962133217660CE300F713F8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6ED71B211767050A00081D89 /* bg5@2x.jpg */,
+				6ED71B1F1767003700081D89 /* bg4@2x.jpg */,
+				6ED71B191766FBF800081D89 /* bg1@2x.jpg */,
+				6ED71B1A1766FBF800081D89 /* bg2@2x.jpg */,
+				6ED71B1B1766FBF800081D89 /* bg3@2x.jpg */,
+				9962133317660CE300F713F8 /* bear@2x.jpg */,
+				9962133517660CE300F713F8 /* dolphin@2x.jpg */,
+				9962133617660CE300F713F8 /* duck@2x.jpg */,
+				9962133717660CE300F713F8 /* giraffe@2x.jpg */,
+				9962133817660CE300F713F8 /* goose@2x.jpg */,
+				9962133917660CE300F713F8 /* gorilla@2x.jpg */,
+				9962133A17660CE300F713F8 /* hippo@2x.jpg */,
+				9962133B17660CE300F713F8 /* horse@2x.jpg */,
+				9962133C17660CE300F713F8 /* koala@2x.jpg */,
+				9962133D17660CE300F713F8 /* mask@2x.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9962130C176608F500F713F8 /* BabyFlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9962132A176608F500F713F8 /* Build configuration list for PBXNativeTarget "BabyFlashCards" */;
+			buildPhases = (
+				99621309176608F500F713F8 /* Sources */,
+				9962130A176608F500F713F8 /* Frameworks */,
+				9962130B176608F500F713F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyFlashCards;
+			productName = BabyFlashCards;
+			productReference = 9962130D176608F500F713F8 /* BabyFlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99621305176608F500F713F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Walnut Labs Pvt. Ltd.";
+			};
+			buildConfigurationList = 99621308176608F500F713F8 /* Build configuration list for PBXProject "BabyFlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 99621304176608F500F713F8;
+			productRefGroup = 9962130E176608F500F713F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9962130C176608F500F713F8 /* BabyFlashCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9962130B176608F500F713F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9962131B176608F500F713F8 /* InfoPlist.strings in Resources */,
+				99621323176608F500F713F8 /* Default.png in Resources */,
+				99621325176608F500F713F8 /* Default@2x.png in Resources */,
+				99621327176608F500F713F8 /* Default-568h@2x.png in Resources */,
+				9962133E17660CE300F713F8 /* bear@2x.jpg in Resources */,
+				9962134017660CE300F713F8 /* dolphin@2x.jpg in Resources */,
+				9962134117660CE300F713F8 /* duck@2x.jpg in Resources */,
+				9962134217660CE300F713F8 /* giraffe@2x.jpg in Resources */,
+				9962134317660CE300F713F8 /* goose@2x.jpg in Resources */,
+				9962134417660CE300F713F8 /* gorilla@2x.jpg in Resources */,
+				9962134517660CE300F713F8 /* hippo@2x.jpg in Resources */,
+				9962134617660CE300F713F8 /* horse@2x.jpg in Resources */,
+				9962134717660CE300F713F8 /* koala@2x.jpg in Resources */,
+				9962134817660CE300F713F8 /* mask@2x.jpg in Resources */,
+				9962134D176615DE00F713F8 /* FlashCardsViewController.xib in Resources */,
+				6ED71B1C1766FBF800081D89 /* bg1@2x.jpg in Resources */,
+				6ED71B1D1766FBF800081D89 /* bg2@2x.jpg in Resources */,
+				6ED71B1E1766FBF800081D89 /* bg3@2x.jpg in Resources */,
+				6ED71B201767003700081D89 /* bg4@2x.jpg in Resources */,
+				6ED71B221767050A00081D89 /* bg5@2x.jpg in Resources */,
+				6ED720FF17670E6000081D89 /* bgmusic1.mp3 in Resources */,
+				6ED72101176721E700081D89 /* DK Mama Bear.otf in Resources */,
+				6ED721031767320700081D89 /* FlashCardCell.xib in Resources */,
+				6EE46F951767498C00F41A3F /* hanko.ttf in Resources */,
+				6EE46F9717674AA800F41A3F /* bear.mp3 in Resources */,
+				6EE46FA917674D2A00F41A3F /* bear_sound.mp3 in Resources */,
+				6EE46FAA17674D2A00F41A3F /* dolphin_sound.mp3 in Resources */,
+				6EE46FAB17674D2A00F41A3F /* dolphin.mp3 in Resources */,
+				6EE46FAC17674D2A00F41A3F /* duck_sound.mp3 in Resources */,
+				6EE46FAD17674D2A00F41A3F /* duck.mp3 in Resources */,
+				6EE46FAE17674D2A00F41A3F /* giraffe_sound.mp3 in Resources */,
+				6EE46FAF17674D2A00F41A3F /* giraffe.mp3 in Resources */,
+				6EE46FB017674D2A00F41A3F /* goose_sound.mp3 in Resources */,
+				6EE46FB117674D2A00F41A3F /* goose.mp3 in Resources */,
+				6EE46FB217674D2A00F41A3F /* gorilla_sound.mp3 in Resources */,
+				6EE46FB317674D2A00F41A3F /* gorilla.mp3 in Resources */,
+				6EE46FB417674D2A00F41A3F /* hippo_sound.mp3 in Resources */,
+				6EE46FB517674D2A00F41A3F /* hippo.mp3 in Resources */,
+				6EE46FB617674D2A00F41A3F /* horse_sound.mp3 in Resources */,
+				6EE46FB717674D2A00F41A3F /* horse.mp3 in Resources */,
+				6EE46FB817674D2A00F41A3F /* koala_sound.mp3 in Resources */,
+				6EE46FB917674D2A00F41A3F /* koala.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99621309176608F500F713F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9962131D176608F500F713F8 /* main.m in Sources */,
+				99621321176608F500F713F8 /* AppDelegate.m in Sources */,
+				996213301766097700F713F8 /* FlashCardsViewController.m in Sources */,
+				9962134B17660D3200F713F8 /* FlashCardCell.m in Sources */,
+				6ED720DD17670E0C00081D89 /* OALAction.m in Sources */,
+				6ED720DE17670E0C00081D89 /* OALActionManager.m in Sources */,
+				6ED720DF17670E0C00081D89 /* OALAudioActions.m in Sources */,
+				6ED720E017670E0C00081D89 /* OALUtilityActions.m in Sources */,
+				6ED720E117670E0C00081D89 /* OALAudioTrack.m in Sources */,
+				6ED720E217670E0C00081D89 /* OALAudioTrackNotifications.m in Sources */,
+				6ED720E317670E0C00081D89 /* OALAudioTracks.m in Sources */,
+				6ED720E417670E0C00081D89 /* OALSimpleAudio.m in Sources */,
+				6ED720E517670E0C00081D89 /* ALBuffer.m in Sources */,
+				6ED720E617670E0C00081D89 /* ALCaptureDevice.m in Sources */,
+				6ED720E717670E0C00081D89 /* ALChannelSource.m in Sources */,
+				6ED720E817670E0C00081D89 /* ALContext.m in Sources */,
+				6ED720E917670E0C00081D89 /* ALDevice.m in Sources */,
+				6ED720EA17670E0C00081D89 /* ALListener.m in Sources */,
+				6ED720EB17670E0C00081D89 /* ALSoundSourcePool.m in Sources */,
+				6ED720EC17670E0C00081D89 /* ALSource.m in Sources */,
+				6ED720ED17670E0C00081D89 /* ALWrapper.m in Sources */,
+				6ED720EE17670E0C00081D89 /* OpenALManager.m in Sources */,
+				6ED720EF17670E0C00081D89 /* OALAudioSession.m in Sources */,
+				6ED720F017670E0C00081D89 /* OALSuspendHandler.m in Sources */,
+				6ED720F117670E0C00081D89 /* IOSVersion.m in Sources */,
+				6ED720F217670E0C00081D89 /* mach_timing.c in Sources */,
+				6ED720F317670E0C00081D89 /* NSMutableArray+WeakReferences.m in Sources */,
+				6ED720F417670E0C00081D89 /* NSMutableDictionary+WeakReferences.m in Sources */,
+				6ED720F517670E0C00081D89 /* OALAudioFile.m in Sources */,
+				6ED720F617670E0C00081D89 /* OALTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99621319176608F500F713F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9962131A176608F500F713F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99621328176608F500F713F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99621329176608F500F713F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9962132B176608F500F713F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyFlashCards/BabyFlashCards-Prefix.pch";
+				INFOPLIST_FILE = "BabyFlashCards/BabyFlashCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9962132C176608F500F713F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyFlashCards/BabyFlashCards-Prefix.pch";
+				INFOPLIST_FILE = "BabyFlashCards/BabyFlashCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99621308176608F500F713F8 /* Build configuration list for PBXProject "BabyFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99621328176608F500F713F8 /* Debug */,
+				99621329176608F500F713F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9962132A176608F500F713F8 /* Build configuration list for PBXNativeTarget "BabyFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9962132B176608F500F713F8 /* Debug */,
+				9962132C176608F500F713F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99621305176608F500F713F8 /* Project object */;
+}
